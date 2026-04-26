@@ -15,12 +15,12 @@ const projects = [
   },
   {
     icon: '🤖',
-    title: 'AI-Powered NLP Chatbot',
+    title: 'AI-Powered NLP HR-Assistant Chatbot',
     description:
       'Intent-recognition chatbot with custom tokenization, text preprocessing, and multi-class classification. Node.js/Express backend with JWT-secured REST API integrated with a React.js frontend.',
-    tech: ['Python', 'TensorFlow', 'Node.js', 'React', 'JWT'],
+    tech: ['Python', 'TensorFlow', 'Node.js', 'React', 'JWT','Flask'],
     featured: true,
-    demo: '',
+    demo: 'https://hr-assistant-chatbot.onrender.com',
     github: 'https://github.com/shahzaib427',
   },
   {
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     icon: '🛒',
-    title: 'MERN E-Commerce App',
+    title: 'MERN AI-HRM App',
     description:
       'Full-stack e-commerce platform with product listings, cart, JWT authentication, and MongoDB database. Responsive design with React and Tailwind CSS. — Replace with your real project.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
@@ -45,22 +45,32 @@ const projects = [
   },
   {
     icon: '📝',
-    title: 'Task Manager API',
+    title: 'AI-interview-master',
     description:
       'RESTful task management API with user authentication, CRUD operations, and filtering. Built with Express.js and MongoDB. Documented with Postman. — Replace with your real project.',
     tech: ['Node.js', 'Express', 'MongoDB', 'REST API', 'Postman'],
+    featured: false,
+    demo: 'https://ai-interview-master-blush.vercel.app/',
+    github: 'https://github.com/shahzaib427',
+  },
+    {
+    icon: '📝',
+    title: 'AI-Wellness-Coach',
+    description:
+      'RESTful task management API with user authentication, CRUD operations, and filtering. Built with Express.js and MongoDB. Documented with Postman. — Replace with your real project.',
+    tech: ['Node.js', 'Flask', 'REST API', 'Postman'],
     featured: false,
     demo: '',
     github: 'https://github.com/shahzaib427',
   },
   {
     icon: '🧠',
-    title: 'Sentiment Analysis Tool',
+    title: 'AI PDF-Reader',
     description:
       'NLP-based sentiment classifier for product reviews. Fine-tuned transformer model with a React frontend for real-time text analysis. — Replace with your real project.',
     tech: ['Python', 'Hugging Face', 'React', 'Flask', 'NLP'],
     featured: false,
-    demo: '',
+    demo: 'https://pdf-reader-ai-a6he.vercel.app/',
     github: 'https://github.com/shahzaib427',
   },
 ]
