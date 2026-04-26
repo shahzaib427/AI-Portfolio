@@ -4,13 +4,23 @@ import ProjectCard from './ProjectCard'
 
 const projects = [
   {
-    icon: '🎙️',
-    title: 'Speech Emotion Recognition',
+    icon: '📝',
+    title: 'AI-interview-master',
     description:
-      'End-to-end emotion classification pipeline using MFCC feature extraction on raw audio data. Bidirectional LSTM with Attention Mechanism deployed via Flask REST API for real-time inference.',
-    tech: ['Python', 'TensorFlow', 'LSTM', 'Flask', 'MFCC'],
-    featured: true,
-    demo: '',
+      'RESTful task management API with user authentication, CRUD operations, and filtering. Built with Express.js and MongoDB. Documented with Postman. — Replace with your real project.',
+    tech: ['Node.js', 'Express', 'MongoDB', 'REST API', 'Postman'],
+    featured: false,
+    demo: 'https://ai-interview-master-blush.vercel.app/',
+    github: 'https://github.com/shahzaib427',
+  },
+    {
+    icon: '🧠',
+    title: 'AI PDF-Reader',
+    description:
+      'NLP-based sentiment classifier for product reviews. Fine-tuned transformer model with a React frontend for real-time text analysis. — Replace with your real project.',
+    tech: ['Python', 'Hugging Face', 'React', 'Flask', 'NLP'],
+    featured: false,
+    demo: 'https://pdf-reader-ai-a6he.vercel.app/',
     github: 'https://github.com/shahzaib427',
   },
   {
@@ -33,6 +43,16 @@ const projects = [
     demo: '',
     github: 'https://github.com/shahzaib427',
   },
+   {
+    icon: '🎙️',
+    title: 'Speech Emotion Recognition',
+    description:
+      'End-to-end emotion classification pipeline using MFCC feature extraction on raw audio data. Bidirectional LSTM with Attention Mechanism deployed via Flask REST API for real-time inference.',
+    tech: ['Python', 'TensorFlow', 'LSTM', 'Flask', 'MFCC'],
+    featured: true,
+    demo: '',
+    github: 'https://github.com/shahzaib427',
+  },
   {
     icon: '🛒',
     title: 'MERN AI-HRM App',
@@ -43,16 +63,7 @@ const projects = [
     demo: '',
     github: 'https://github.com/shahzaib427',
   },
-  {
-    icon: '📝',
-    title: 'AI-interview-master',
-    description:
-      'RESTful task management API with user authentication, CRUD operations, and filtering. Built with Express.js and MongoDB. Documented with Postman. — Replace with your real project.',
-    tech: ['Node.js', 'Express', 'MongoDB', 'REST API', 'Postman'],
-    featured: false,
-    demo: 'https://ai-interview-master-blush.vercel.app/',
-    github: 'https://github.com/shahzaib427',
-  },
+
     {
     icon: '📝',
     title: 'AI-Wellness-Coach',
@@ -63,16 +74,7 @@ const projects = [
     demo: '',
     github: 'https://github.com/shahzaib427',
   },
-  {
-    icon: '🧠',
-    title: 'AI PDF-Reader',
-    description:
-      'NLP-based sentiment classifier for product reviews. Fine-tuned transformer model with a React frontend for real-time text analysis. — Replace with your real project.',
-    tech: ['Python', 'Hugging Face', 'React', 'Flask', 'NLP'],
-    featured: false,
-    demo: 'https://pdf-reader-ai-a6he.vercel.app/',
-    github: 'https://github.com/shahzaib427',
-  },
+
 ]
 
 export default function Projects() {
